@@ -41,3 +41,19 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* === custom overrides for sidebar headshot === */
+
+/* Increase sidebar headshot size */
+.author__avatar {
+  width: 180px;    /* adjust until you like it */
+  height: auto;
+}
+
+/* Make it rectangular / square instead of circle */
+.author__avatar img {
+  border-radius: 8px;   /* 0 for sharp corners, 8px for gentle square */
+  width: 100%;
+  height: auto;
+  display: block;
+}
