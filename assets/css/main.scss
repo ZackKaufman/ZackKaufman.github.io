@@ -57,3 +57,12 @@
   height: auto;
   display: block;
 }
+
+/* Hide the theme/settings toggle in the masthead */
+.masthead a[aria-label="Appearance"],
+.masthead a[aria-label="Settings"],
+.masthead .theme-toggle,
+.masthead .site-theme-toggle,
+.masthead .fa-moon,
+.masthead .fa-sun,
+.masthead .fa-gear { display: none !important; }
