@@ -68,23 +68,27 @@
 .masthead .fa-gear { display: none !important; }
 
 
-/* === Research page layout (image left, text right) === */
+/* === Research page layout (grid: media | text; footer spans both) === */
 .research-item {
-  display: flex;
-  align-items: stretch;     /* image and text share height nicely */
-  gap: 2rem;
+  display: grid;
+  grid-template-columns: minmax(360px, 460px) 1fr;
+  grid-template-areas:
+    "media text"
+    "footer footer";
+  column-gap: 2rem;
+  row-gap: 0.75rem;
   margin: 2.5rem 0;
 }
 
-.research-media {
-  flex: 0 0 420px;          /* image column width; adjust 360–480px as you like */
-}
+.research-media   { grid-area: media; }
+.research-text    { grid-area: text;  align-self: center; }
+.research-footer  { grid-area: footer; margin-top: 0.25rem; }
 
 .research-media img {
   width: 100%;
-  height: 100%;
-  max-height: 360px;        /* keep image from getting too tall */
-  object-fit: cover;        /* fill box without distortion; crops if aspect differs */
+  height: auto;          /* keep full image visible */
+  max-height: 420px;     /* adjust to taste */
+  object-fit: contain;   /* no cropping on the sides */
   border-radius: 8px;
   display: block;
 }
@@ -95,25 +99,21 @@
   margin-top: 0.35rem;
 }
 
-.research-text {
-  flex: 1 1 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;  /* vertically centers text next to the image */
-}
+.research-text h2 { margin: 0 0 0.6rem 0; }
 
-.research-text h2 {
-  margin-top: 0;
-  margin-bottom: 0.6rem;
-}
+/* Optional: slightly smaller text to better match image height */
+.research-text { font-size: 0.98rem; line-height: 1.55; }
 
-.pub-venue {
-  color: #666;
-}
+.pub-venue { color: #666; }
 
 /* Responsive: stack on narrow screens */
 @media (max-width: 900px) {
-  .research-item { flex-direction: column; }
-  .research-media { flex-basis: auto; }
+  .research-item {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "media"
+      "text"
+      "footer";
+  }
   .research-media img { max-height: none; }
 }
