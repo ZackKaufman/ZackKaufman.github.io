@@ -30,12 +30,7 @@ author:
   location         : #"Earth"
   employer         : #"Red Brick University"
   uri              : # URL
-  email            :   # ← leave this blank or delete to avoid duplication
-
-  links:
-    - label: "zackkaufman@temple.edu"          # ← TEXT that will display
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:zackkaufman@temple.edu"     # ←
+  email            : "zackkaufman@temple.edu"
 
   # Academic websites
   academia         : # URL
