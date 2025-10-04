@@ -13,9 +13,10 @@ author_profile: false
   </div>
 
   <div class="research-text">
-    <h2>HISTORICAL SOUTHERN OCEAN CLIMATE TRENDS</h2>
+    <h2>Historical Southern Ocean Climate Trends</h2>
     <p> 
-    While most of Earth's surface has warmed over the satellite era, the Southern Ocean sea surface experienced a prolonged cooling trend. One proposed driver of this anomalous cooling is the increasing flux of freshwater into the Southern Ocean, which restricts the exchange of surface waters with warmer waters at depth. However, climate model simulations underestimate the Southern Ocean freshening trend and fail to simulate the observed surface cooling. My postdoctoral research in the Stanford Polar Ocean Dynamics Group explored this persistent model bias: I found that underestimated freshwater fluxes into the Southern Ocean help explain climate models' inability to reproduce observed sea surface temperature trends, with recent changes in precipitation and Antarctic meltwater playing a key role. 
+    While most of Earth's surface has warmed over the satellite era, the Southern Ocean sea surface experienced a prolonged cooling trend. One proposed driver of this anomalous cooling is the increasing flux of freshwater into the Southern Ocean, which restricts the exchange of surface waters with warmer waters at depth. I led a collaboration with the Southern
+    Ocean Freshwater Input from Antarctica initiative (SOFIA, https://sofiamip.github.io/) to quantify the impact of underestimated Antarctic meltwater on Southern Ocean sea-surface temperatures in climate models. I show that this missing meltwater helps explain the models’ inability to reproduce observed trends over recent decades.
     </p>
   </div>
 

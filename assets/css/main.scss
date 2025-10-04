@@ -71,7 +71,7 @@
 /* === Research page layout (grid: media | text; footer spans both) === */
 .research-item {
   display: grid;
-  grid-template-columns: minmax(360px, 460px) 1fr;
+  grid-template-columns: minmax(360px, 420px) 1fr;
   grid-template-areas:
     "media text"
     "footer footer";
@@ -82,7 +82,7 @@
 
 .research-media   { grid-area: media; }
 .research-text    { grid-area: text;  align-self: center; }
-.research-footer  { grid-area: footer; margin-top: 0.25rem; }
+.research-footer  { font-size: 0.8rem; grid-area: footer; margin-top: 0.25rem; }
 
 .research-media img {
   width: 100%;
