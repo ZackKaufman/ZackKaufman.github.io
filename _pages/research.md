@@ -32,3 +32,31 @@ author_profile: false
 <!-- ===== /SECTION TEMPLATE ===== -->
 
 <!-- Duplicate more sections below by copying the block above and changing the image+text -->
+
+
+<!-- ===== SECTION TEMPLATE (duplicate this block) ===== -->
+<div class="research-item">
+  <div class="research-media">
+    <img src="{{ '/images/research/Website_Fig_WACE.jpg' | relative_url }}" alt="Describe the figure briefly">
+    <div class="research-caption">Kaufman et al. 2024 </div>
+  </div>
+
+  <div class="research-text">
+    <h2>Data-Driven Methods to Improve Climate Predictability</h2>
+    <p> 
+    Traditionally, constraining the climate response to an individual forcing requires isolated perturbation experiments to be performed with climate models. To separate signal from noise and account for internal variability, this also requires performing an ensemble of experiments with differing initial conditions. Such efforts are computationally expensive and require coordination amongst a large number of modeling centers. I address this challenge with causal inference techniques, which quantify underlying interdependencies among any set of time series variables, observational or simulated, without requiring isolated perturbation experiments.
+    </p>
+  </div>
+
+  <div class="research-footer">
+    <strong>Related links:</strong>
+    Kaufman, Z., <em>et al.</em> (2024),
+    <a href="https://doi.org/10.1088/2752-5295/ad1f40" target="_blank" rel="noopener">
+      Warm Arctic–Cold Eurasia pattern driven by atmospheric blocking in models and observations
+    </a>.
+    <span class="pub-venue">Environmental Research: Climate 3.1: 015006</span>.
+  </div>
+</div>
+<!-- ===== /SECTION TEMPLATE ===== -->
+
+<!-- Duplicate more sections below by copying the block above and changing the image+text -->
