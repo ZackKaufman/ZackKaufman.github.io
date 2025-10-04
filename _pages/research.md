@@ -33,6 +33,23 @@ author_profile: false
 
 <!-- Duplicate more sections below by copying the block above and changing the image+text -->
 
+<!-- ===== SECTION TEMPLATE (duplicate this block) ===== -->
+<div class="research-item">
+  <div class="research-media">
+    <img src="{{ '/images/research/Website_Fig_LanhamCDW.jpg' | relative_url }}" alt="Describe the figure briefly">
+    <div class="research-caption">Lanham et al. 2025 </div>
+  </div>
+
+  <div class="research-text">
+    <h2>High-Resolution Modeling at the Antarctic Margin</h2>
+    <p> 
+    High-resolution models have recently become able to explicitly resolve thermodynamically active ice-shelf cavities at the Antarctic margin, offering a unique opportunity to investigate the potential feedbacks (positive or negative) between ice sheet melt and ocean circulation. I currently am working with a high-resolution configuration of the Southern Ocean State Estimate (SOSE, https://sose.ucsd.edu/) to investigate the relationship between the Antarctic slope current and the on-shore transport of warm water masses that lead to ice sheet mass loss.
+    </p>
+  </div>
+
+<!-- ===== /SECTION TEMPLATE ===== -->
+
+<!-- Duplicate more sections below by copying the block above and changing the image+text -->
 
 <!-- ===== SECTION TEMPLATE (duplicate this block) ===== -->
 <div class="research-item">
@@ -60,3 +77,7 @@ author_profile: false
 <!-- ===== /SECTION TEMPLATE ===== -->
 
 <!-- Duplicate more sections below by copying the block above and changing the image+text -->
+
+
+
+
