@@ -46,6 +46,7 @@ author_profile: false
     High-resolution models have recently become able to explicitly resolve thermodynamically active ice-shelf cavities at the Antarctic margin, offering a unique opportunity to investigate the potential feedbacks (positive or negative) between ice sheet melt and ocean circulation. I currently am working with a high-resolution configuration of the Southern Ocean State Estimate (SOSE, https://sose.ucsd.edu/) to investigate the relationship between the Antarctic slope current and the on-shore transport of warm water masses that lead to ice sheet mass loss.
     </p>
   </div>
+</div> 
 
 <!-- ===== /SECTION TEMPLATE ===== -->
 
