@@ -118,11 +118,10 @@
   .research-media img { max-height: none; }
 }
 
-/* === widen the overall content area on single-page layouts (e.g., /research/) === */
-.layout--single .page,
-.layout--single .page__inner-wrap,
-.layout--single .page__content {
-  max-width: 1600px;   /* try 1280–1440px to taste */
-  margin-left: auto;
-  margin-right: auto;
+
+/* Wider page: occupy more of the 12-col grid */
+.layout--single .page {
+  @include span(12 of 12);
+  @include prefix(0 of 12);
+  @include suffix(0 of 12);
 }
