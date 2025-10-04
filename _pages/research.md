@@ -36,7 +36,7 @@ author_profile: false
 <!-- ===== SECTION TEMPLATE (duplicate this block) ===== -->
 <div class="research-item">
   <div class="research-media">
-    <img src="{{ '/images/research/Website_Fig_LanhamCDW.jpg' | relative_url }}" alt="Describe the figure briefly">
+    <img src="{{ '/images/research/Webiste_Fig_LanhamCDW.jpg' | relative_url }}" alt="Describe the figure briefly">
     <div class="research-caption">Lanham et al. 2025 </div>
   </div>
 
