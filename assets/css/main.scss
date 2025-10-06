@@ -200,3 +200,25 @@
   margin: 0 auto;                 /* center within page width */
   line-height: 1.55;
 }
+
+/* === Publications page styling === */
+.publications-page ol {
+  font-family: "Times New Roman", Georgia, serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-left: 1.5rem;
+}
+
+.publications-page li {
+  margin-bottom: 1rem;
+}
+
+.publications-page a {
+  color: inherit;                /* match text color */
+  text-decoration: underline;    /* simple underline, no color box */
+  background: none;              /* remove blue highlight background */
+}
+
+.publications-page a:hover {
+  color: #0056b3;                /* subtle hover if desired */
+}
