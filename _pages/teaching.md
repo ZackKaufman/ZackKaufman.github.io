@@ -13,7 +13,9 @@ classes: [teaching-page]
   </div>
   <div class="teaching-text">
     <h2>Rising Tides, Shifting Landscapes: The Science of Global Climate Change</h2>
-    <p>Since 2024, I have been an Instructor of Record for the Stanford Continuing Studies Program. My students become familiar with the broad fundamentals of climate science (i.e., how to distinguish between weather and climate) and how scientists build models to predict future changes. We also learn how to take the threats posed by climate change seriously, without succumbing to the anxiety and paralysis of "climate doomism.” Instead, my students are empowered by their newfound knowledge to both adapt to and mitigate these threats. If you are interested in developing your own climate science course, please contact me over email. I'd be happy to share my experiences and my course materials!   </p>
+    <p>Since 2024, I have been an Instructor of Record for the <a href="https://continuingstudies.stanford.edu/" target="_blank" rel="noopener noreferrer">
+     Stanford Continuing Studies Program. 
+    </a> My students become familiar with the broad fundamentals of climate science (i.e., how to distinguish between weather and climate) and how scientists build models to predict future changes. They also learn how to take the threats posed by climate change seriously, without succumbing to the anxiety and paralysis of "climate doomism.” Instead, my students are empowered by their newfound knowledge to both adapt to and mitigate these threats. If you are interested in developing your own climate science course, please contact me over email. I'd be happy to share my experiences and my course materials!   </p>
   </div>
 </div>
 
