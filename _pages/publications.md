@@ -2,13 +2,10 @@
 layout: single
 title: Publications
 permalink: /publications/
-sidebar: false
+author_profile: false
 classes: [publications-page]
 ---
 
-<h2>Publications</h2>
-
-<p><em>Undergraduate mentees are <u>underlined</u></em></p>
 
 <ol>
   <li>

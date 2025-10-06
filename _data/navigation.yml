@@ -15,4 +15,6 @@ main:
   - title: "Teaching"
     url: /teaching/
   - title: "CV"
-    url: /cv/
+    url: /files/Kaufman_CV_September2025.pdf
+    target: _blank
+    rel: noopener
