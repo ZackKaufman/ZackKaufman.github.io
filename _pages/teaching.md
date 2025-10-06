@@ -7,7 +7,7 @@ classes: [teaching-page]
 ---
 
 <!-- ① Two-column item identical to research layout -->
-<div class="teaching-item">
+<div class="teaching-item teaching-item--stacked">
   <div class="teaching-media">
     <img src="/images/Teaching/ContStudies_Classpic.jpg" alt="Classroom" />
   </div>

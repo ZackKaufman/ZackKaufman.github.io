@@ -153,7 +153,7 @@
 /* single-column section styling */
 .teaching-overview {
   margin-top: 2.5rem;
-  font-size: 0.8rem;
+  font-size: 0.98rem;
   line-height: 1.55;
 }
 
@@ -166,4 +166,37 @@
       "text";
   }
   .teaching-media img { max-height: none; }
+}
+
+
+/* === Stacked variant: image above, centered; text full width === */
+.teaching-item--stacked {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "media"
+    "text";
+  row-gap: 1rem;
+}
+
+/* center the image block */
+.teaching-item--stacked .teaching-media {
+  justify-self: center;          /* centers the grid item horizontally */
+  width: 100%;
+  max-width: 560px;               /* cap image block width; tweak to taste */
+}
+
+.teaching-item--stacked .teaching-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: none;               /* allow natural height */
+  object-fit: contain;
+}
+
+/* make the text comfortably wide and centered */
+.teaching-item--stacked .teaching-text {
+  max-width: 70ch;                /* readable line length */
+  margin: 0 auto;                 /* center within page width */
+  line-height: 1.55;
 }
