@@ -125,3 +125,45 @@
   @include prefix(0 of 12);
   @include suffix(0 of 12);
 }
+
+
+/* === Teaching page layout (mirrors research grid) === */
+.teaching-item {
+  display: grid;
+  grid-template-columns: minmax(360px, 460px) 1fr;
+  grid-template-areas:
+    "media text";
+  column-gap: 2rem;
+  row-gap: 0.75rem;
+  margin: 2.5rem 0;
+}
+
+.teaching-media { grid-area: media; }
+.teaching-text  { grid-area: text; align-self: center; }
+
+.teaching-media img {
+  width: 100%;
+  height: auto;
+  max-height: 420px;
+  object-fit: contain;
+  border-radius: 8px;
+  display: block;
+}
+
+/* single-column section styling */
+.teaching-overview {
+  margin-top: 2.5rem;
+  font-size: 0.98rem;
+  line-height: 1.55;
+}
+
+/* responsive stack */
+@media (max-width: 900px) {
+  .teaching-item {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "media"
+      "text";
+  }
+  .teaching-media img { max-height: none; }
+}
