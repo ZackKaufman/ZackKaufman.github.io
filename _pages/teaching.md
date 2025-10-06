@@ -2,7 +2,7 @@
 layout: single
 title: Teaching
 permalink: /teaching/
-sidebar: false          # hides left photo/menu
+author_profile: false          # hides left photo/menu
 classes: [teaching-page]
 ---
 
@@ -20,7 +20,7 @@ classes: [teaching-page]
 <!-- ② Single-column text with numbered list -->
 <div class="teaching-overview">
   <h2>Other Courses</h2>
-  <p>I have taught as a teching assistant for the following courses at UC Santa Cruz:</p>
+  <p>I have taught as a teaching assistant for the following courses at UC Santa Cruz:</p>
   <ol>
     <li>EART-124, Modeling Earth’s Climate </li>
     <li>EART-121, The Atmosphere</li>

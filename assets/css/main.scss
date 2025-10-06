@@ -139,7 +139,7 @@
 }
 
 .teaching-media { grid-area: media; }
-.teaching-text  { grid-area: text; align-self: center; }
+.teaching-text  {font-size: 0.8rem; grid-area: text; align-self: center; }
 
 .teaching-media img {
   width: 100%;
@@ -153,7 +153,7 @@
 /* single-column section styling */
 .teaching-overview {
   margin-top: 2.5rem;
-  font-size: 0.98rem;
+  font-size: 0.8rem;
   line-height: 1.55;
 }
 
